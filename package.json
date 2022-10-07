@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.10.0",
+    "nodemon": "^2.0.20"
+  },
+  "name": "mern-shop",
+  "version": "1.0.0",
+  "description": "Shop Online",
+  "main": "index.js",
+  "scripts": {
+    "start-test": "node server/server.js",
+    "start": "nodemon server/server.js"
+  },
+  "author": "Nguyen Vu",
+  "license": "ISC"
+}
